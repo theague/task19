@@ -1,0 +1,47 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: #fff;
+}
+
+.guarantee {
+    color: hsl(71, 73%, 54%)
+}
+
+p {
+    color: hsl(202, 9%, 75%);
+}
+
+.main {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.main p {
+    color: hsl(204, 22%, 86%);
+}
+
+.cost {
+    color: #fff;
+}
+
+.month {
+    color: hsl(218, 22%, 67%);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
