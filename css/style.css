@@ -1,9 +1,10 @@
 body {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     width: 375px;
-    border: 3px solid;
+    box-shadow: 0 0 10px 5px rgb(206, 206, 206);
+    border-radius: 5px;
 }
 
 .container {
@@ -26,6 +27,7 @@ h2 {
 h2.guarantee {
     color: hsl(71, 73%, 54%);
     margin: 20px 0 0 0;
+    font-size: 1.3em;
 }
 
 p {
@@ -43,12 +45,14 @@ p {
 
 .main p {
     color: hsl(204, 22%, 86%);
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 span.cost {
     color: #fff;
     font-size: 30px;
+    margin-right: 5px;
+    margin-bottom: 15px;
 }
 
 .month {
@@ -70,6 +74,8 @@ button {
 footer.container {
     background-color: hsl(179, 63%, 49%);
     padding-left: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 ul {
     list-style-type: none;
@@ -78,4 +84,5 @@ ul {
 
 li {
     color: hsl(204, 22%, 86%);
+    padding: 1px;
 }
