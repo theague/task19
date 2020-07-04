@@ -2,7 +2,7 @@ body {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    width: 375px;
+    width: auto;
     box-shadow: 0 0 10px 5px rgb(206, 206, 206);
     border-radius: 5px;
 }
@@ -71,6 +71,13 @@ button {
     font-size: 16px;
 }
 
+.btn:hover {
+    background-color: #fff;
+    color: hsl(71, 73%, 54%);
+    border-radius: 15px;
+}
+
+
 footer.container {
     background-color: hsl(179, 63%, 49%);
     padding-left: 30px;
@@ -86,3 +93,9 @@ li {
     color: hsl(204, 22%, 86%);
     padding: 1px;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    }
+
+ }
