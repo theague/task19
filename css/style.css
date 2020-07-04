@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     box-shadow: 0 0 10px 5px rgb(206, 206, 206);
     border-radius: 5px;
+    max-width: 1440px;
 }
 
 .container {
@@ -91,4 +92,23 @@ ul {
 li {
     color: hsl(204, 22%, 86%);
     padding: 1px;
+}
+
+@media all and (min-width: 768px) {
+    .content {
+        width: auto;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: row;
+    }
+    .main {
+        width: 50%;
+    }
+
+    .footer {
+        width: 50%;
+    }
+
 }
