@@ -68,7 +68,7 @@ button {
     border-radius: 5px;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.1rem;
 }
 
 .btn:hover {
@@ -96,7 +96,7 @@ li {
 
 @media all and (min-width: 768px) {
     .content {
-        width: auto;
+        width: 100vw;
     }
     
     .second {
@@ -105,6 +105,11 @@ li {
     }
     .main {
         width: 50%;
+        border-bottom-left-radius: 5px;
+    }
+
+    footer.container {
+        border-bottom-left-radius: 0;
     }
 
     .footer {
